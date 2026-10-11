@@ -18,5 +18,5 @@ if missing:
 print("Dataset registered successfully.")
 print(f"Rows: {df.shape[0]}, Columns: {df.shape[1]}")
 print("Columns:", list(df.columns))
-print("ProdTaken distribution:")
-print(df["ProdTaken"].value_counts())
+print("Product Store Sales Total statistics:")
+print(df["Product_Store_Sales_Total"].describe())
